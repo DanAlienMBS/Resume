@@ -8,7 +8,8 @@
         "CertificateMetaIntroFront-end.png", 
         "CertificateMetaJavascript.png", 
         "HTML_CSS_inDepth.png", 
-        "ReactBasics.png"
+        "ReactBasics.png",
+        "MetaVersionControl.png"
     ];
     let currentImage = 0;
     const container = document.getElementById("slideShow");
