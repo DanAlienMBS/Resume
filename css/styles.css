@@ -74,7 +74,7 @@ main {
 article {
     display: flex;
     gap: 1rem;
-    justify-content: space-between;
+    justify-content: start;
     padding-bottom: 2rem;
 }
 
@@ -83,6 +83,18 @@ article {
 }
 
 /***** table ******/
+
+.bioTable {
+    border-spacing: 5px;
+    margin-top: -5px;
+}
+
+th {
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-weight: normal;
+}
 
 tr {
     background-color:rgba(26, 53, 122, 0.156);
@@ -299,7 +311,7 @@ ul span {
     border: 5px solid black;
 }
 
-#stainedGlass  div {
+.stainedGlass div {
     border: 1px solid black;
 }
 
@@ -317,11 +329,16 @@ ul span {
     background-color: rgba(223, 18, 18, 0.581);
 }
 
+/* .bdr {
+    border: 0 1px 0 1px;
+} */
+
 #inSec1_1 {
     width: 30%;
     height: 100%;
     background-color: rgba(140, 161, 199, 0.517);
     margin: auto;
+    border-width: 0 1px;
 }
 
 #sec1_2 {
@@ -334,6 +351,7 @@ ul span {
     background-color: rgba(140, 161, 199, 0.517);
     height: 30%;
     width: 100%;
+    border-width: 1px 0;
 }
 
 #sec1_3 {
@@ -346,6 +364,7 @@ ul span {
     background-color: rgba(237, 194, 199, 0.75);
     width: 10%;
     height: 100%;
+    border-width: 0 1px;
     /* margin: auto; */
 }
 
@@ -359,6 +378,7 @@ ul span {
     background-color: rgba(140, 161, 199, 0.517);
     height: 30%;
     width: 100%;
+    border-width: 1px 0;
 }
 
 #sec1_5 {
@@ -370,6 +390,7 @@ ul span {
     width: 30%;
     height: 100%;
     background-color: rgba(140, 161, 199, 0.517);
+    border-width: 0 1px;
     margin: auto;
 }
 
@@ -385,6 +406,7 @@ ul span {
     background-color: rgba(140, 161, 199, 0.517);
     height: 30%;
     width: 100%;
+    border-width: 1px 0;
 }
 
 #sec2_2 {
@@ -395,6 +417,7 @@ ul span {
     width: 30%;
     height: 100%;
     background-color: rgba(140, 161, 199, 0.517);
+    border-width: 0 1px;
     margin: auto;
 }
 
@@ -408,6 +431,7 @@ ul span {
     height: 30%;
     width: 100%;
     background-color: rgba(242, 161, 11, 0.553);
+    border-width: 1px 0;
 }
 
 #sec2_4 {
@@ -418,6 +442,7 @@ ul span {
     width: 30%;
     height: 100%;
     background-color: rgba(140, 161, 199, 0.517);
+    border-width: 0 1px;
     margin: auto;
 }
 
@@ -431,6 +456,7 @@ ul span {
     background-color: rgba(140, 161, 199, 0.517);
     height: 30%;
     width: 100%;
+    border-width: 1px 0;
 }
 
 /* row 3 */
@@ -527,3 +553,16 @@ ul span {
     text-align: center;
 }
 
+/*********previews************/
+
+.preview{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .preview, .preview:hover{
+    display: block;
+    position: relative;
+    top: 0px;
+    z-index: 100;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Survey</h1>
+    <p id="description">This is a survey?</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name: <input required id="name" type="text" placeholder="John Doe"/></label>
+        <label id="email-label">Email: <input required id="email" type="email" Placeholder="blank@blank.blank"/></label>
+        <label id="number-label">Number 1-100: <input id="number" type="number" min="1" max="100" placeholder="24"/></label>
+        <label id="dropdown-label">This or That: <select id="dropdown"></label>
+          <option>(select one)</option>
+          <option>This</option>
+          <option>That</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label>click me!<input type="radio" name="choose" class="click" value="me"></label>
+        <label>No! click me!<input type="radio" name="choose" class="click" value="no-me"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Choose Wisely</legend>
+        <label><input type="checkbox" value="1" class="click">Mario</label>
+        <label><input type="checkbox" value="2" class="click">Luigi</label>
+        <label><input type="checkbox" value="3" class="click">Princess</label>
+      </fieldset>  
+      <label>Additional Comments: <textarea placeholder="Did you choose wisely?"></textarea></label>
+      <button id="submit"><strong>Submit Form</strong></button>
+    </form>
+  </body>
+</html>
