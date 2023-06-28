@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+    color: rgba(99, 119, 240, .6);
+  background-color: rgb(180, 232, 180);
+  }
+  
+  h1 {
+    margin: 0 auto;
+    padding: 5px 0 5px 0;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+    
+  }
+  
+  #img-div {
+    max-width: 700px;
+    margin: 0 auto;
+    
+    
+  }
+  
+  #image{
+    margin: 0 auto;
+    display: block;
+    border: 5px solid black;
+    padding: 5%;
+    max-width: 100%; 
+    box-shadow: -1em -1em 3em rgb(74, 104, 74), 1em 1em 3em rgb(74, 104, 74);
+  }
+  
+  #img-caption {
+    color: rgba(252, 252, 253, 0.6);
+    text-align: center;
+  }
+  
+  #maddie {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #sentence
+   {
+     text-align: center;
+     height: 50%;
+     width: 100%;
+     margin: 0 auto;
+     max-width: 300px;
+     border-width: 5px;
+  }
+  
+  a {
+    color: rgb(190, 50, 225)
+  }
+  
+  a:hover {
+    color: rgb(240, 244, 243);
+  }

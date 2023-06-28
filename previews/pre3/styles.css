@@ -1,0 +1,153 @@
+body {
+    padding-bottom: 750px;
+    font-family: Verdana;
+    background-color: rgb(207, 180, 210);
+}
+
+.indent {
+    text-indent: 30px;
+}
+
+#navbar {
+    /* background-color: rgb(181, 211, 181); */
+    width: 150px;
+    height: 100%;
+    position: fixed;
+}
+
+#nav-head {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: auto;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: rgb(77, 75, 75);
+    background-color: pink;
+    /* border-radius: 40px; */
+    border: 11px solid pink;
+    box-shadow: 4px 4px 1px 1px rgb(202, 17, 48);
+}
+
+h1:first-of-type {
+    border-radius: 40px 40px 0 0; 
+}
+
+h1:last-of-type {
+    border-radius: 0 0 40px 40px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1:first-of-type {
+    margin-top: 10px;
+}
+
+
+.nav-list {
+    list-style: none;
+    margin-top: 2px ;
+    background-color: rgb(245, 226, 226);
+    border-radius: 40px;
+    border: 8px solid pink;
+    box-shadow: 4px 4px 1px 1px rgb(202, 17, 48);
+    text-align: center;
+}
+
+section {
+    width: 400px;
+    margin: 8px auto;
+    background-color: rgb(245, 226, 226);
+    border-radius: 40px;
+    border: 11px solid pink;
+    box-shadow: 4px 4px 1px 1px rgb(202, 17, 48);
+    overflow: hidden;
+}
+
+section header {
+    color:  rgb(77, 75, 75);
+}
+
+section:first-of-type {
+    margin-top: 20px;
+}
+
+section p {
+    color: rgb(55, 53, 53);
+    margin: 0px 15px 15px 15px ;
+}
+
+#Fin{
+    /* background-color: red; */
+    height: 360px; 
+}
+
+#donuts {
+    object-fit: cover;
+    object-position: 0 -250px
+}
+
+nav li {
+    font-family: Georgia;
+    font-style: none;
+}
+
+.navItems {
+    padding: 0;
+}
+
+ol > li {
+    margin-bottom: 10;
+}
+
+@media (max-width: 775px) {
+    section {
+      width: 300px;
+      position: relative;
+      left: 15%;
+    }
+
+    #donuts {
+      object-position: -50px -250px;
+    }
+}
+
+@media (max-width: 530px) {
+    section {
+      width: 250px;
+      position: relative;
+      left: 15%;
+    }
+
+    #donuts {
+      object-position: -78px -250px;
+    }
+}
+
+fieldset {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+}
+
+legend {
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+nav li:hover {
+    background-color: rgb(233, 138, 138);
+    color: pink;
+}
+
+a {
+    text-decoration: none;
+    color:  rgb(55, 53, 53);
+}

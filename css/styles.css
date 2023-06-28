@@ -555,6 +555,10 @@ ul span {
 
 /*********previews************/
 
+.displayInline {
+    display: inline-block;
+}
+
 .preview{
     display: none;
     width: 100%;
