@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Dan Alien Portfolio</title>
+    <title>Portfolio by Dan Alien</title>
 
     <meta property="og:title" content="Dan Alien">
     <meta property="og:type" content="website">
@@ -18,15 +18,19 @@
     <link rel="stylesheet" href="css/styles.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Caveat&family=Mynerve&family=Nanum+Myeongjo&display=swap" rel="stylesheet">  
 
     <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/d66d42f680.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>
-            Dan Alien Portfolio
+        <h1 id="h1Head">
+            Portfolio<sub> by Dan Alien</sub>
         </h1>
         <nav>
             <ul id="navList">
@@ -43,10 +47,10 @@
                 Daniel "Alien" Allen
             </h2>
             <article>
-                <div>
+                <div class="bioSection frameIt">
                     <img id="proPic" src="images/DSCF9019 (2).JPG" alt="Main photo">
                 </div>
-                <div id="bio">
+                <div class="bioSection">
                     <Table class="bioTable">
                         <tr>
                             <th>Age: </th>
@@ -70,6 +74,13 @@
                         <a href="https://www.instagram.com/danalien_inchicago/"><i class="fa-brands fa-square-instagram"></i></a>
                         <a href="gallery.html"><p>Shop</p></a>
                     </div>
+                </div>
+                <div class="bioSection">
+                    <p id="fLetter">This will be my mission statement. No one here 
+                        will be able to stop me. Join me, or forever perish in the  
+                        fiery depths of hell. And now I can see the text on the line
+                    under the T. So, what will actually go here? Is this a hopes and 
+                    dreams kind of thing or just make it up as I go.</p>
                 </div>
             </article>
         </section>
@@ -95,27 +106,27 @@
                     <li>"C Programming for Dummies"</li>
                     <li>12hr+ bootcamp with Ania Kubow</li>
                     <li>Built and reconfigured my own PC.</li>
+                    <li>"HTML and CSS" by Jon Duckett</li>
                 </ul>
                 <ul><span>In Progress</span>
-                    <li>"HTML and CSS" and "Javascript and JQuery" by Jon Duckett</li>
-                    <li>Intro to C++ Programming and Unreal Engine</li>
-                    <li>Advanced React by Meta</li>
+                    <li>"Javascript and JQuery" by Jon Duckett</li>
+                    <li>PHP and MySQL certificate</li>
                 </ul>
             </div>
         </section>
 
         <section>
-            <a href="previews/pre1/pre1.html"><div class="displayInline">Something</div></a>
+            <a class="lefty" href="previews/pre1/pre1.html"><div class="displayInline">Something</div></a>
             <div class="preview">
                 <iframe src="previews/pre1/pre1.html" width="500px" height="500px"></iframe>
             </div>
 
-            <a href="previews/pre2/pre2.html"><div class="displayInline">Something Else</div></a>
+            <a class="lefty" href="previews/pre2/pre2.html"><div class="displayInline">Something Else</div></a>
             <div class="preview">
                 <iframe src="previews/pre2/pre2.html" width="500px" height="500px"></iframe>
             </div>
 
-            <a href="previews/pre3/pre3.html"><div class="displayInline">Something More</div></a>
+            <a class="lefty" href="previews/pre3/pre3.html"><div class="displayInline">Something More</div></a>
             <div class="preview">
                 <iframe src="previews/pre3/pre3.html" width="500px" height="500px"></iframe>
             </div>
@@ -126,9 +137,7 @@
                 A Little Experimentation
             </h2>
             <p>
-                A take on stained glass with CSS grid 
-                <br>
-                Works with latest Chrome and Firefox, otherwise untested.
+                A take on stained glass with CSS grid.
             </p>
             <div id="stainedGlass" class="stainedGlass">
                 <img src="images/DSCF9111.JPG">
@@ -232,7 +241,6 @@
                 <div id="sec1_5">
                     <div id="inSec1_5"></div>
                 </div>
-            
             </div>
         </section>
 

@@ -9,7 +9,11 @@
         "CertificateMetaJavascript.png", 
         "HTML_CSS_inDepth.png", 
         "ReactBasics.png",
-        "MetaVersionControl.png"
+        "Adv-React.png",
+        "ux-ui.png",
+        "MetaVersionControl.png",
+        "PHP-web-apps.png",
+        "SQL-intro.png"
     ];
     let currentImage = 0;
     const container = document.getElementById("slideShow");
@@ -48,11 +52,11 @@
         const newSlide = document.createElement("img");
         newSlide.src = `images/${mySlides[currentImage]}`;
         newSlide.className = 'animationR';
-         newSlide.id = 'mySlide';
-         container.appendChild(newSlide);
+        newSlide.id = 'mySlide';
+        container.appendChild(newSlide);
     
-         if(container.children.length > 2) {
-             container.removeChild(container.children[0]);
+        if(container.children.length > 2) {
+            container.removeChild(container.children[0]);
         }
 
         // slideSwap();
